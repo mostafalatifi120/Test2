@@ -7,7 +7,7 @@ int strlength(){
         anzahl++;
     } 
     if (binary =! "1" || binary =! "0" ){
-
+        printf("Usage: bin <binary number>");
     }
     
     
