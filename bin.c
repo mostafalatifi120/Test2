@@ -5,8 +5,13 @@ int strlength(){
     int binary;
     for (int i = 0; binary =! "\0" ; i++){
         anzahl++;
-    }    
-    return anzahl;
+    } 
+    if (binary =! "1" || binary =! "0" ){
+
+    }
+    
+    
+    return -1;
 }
 
 int power(int base, int exp){
