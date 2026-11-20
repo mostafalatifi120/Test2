@@ -3,15 +3,13 @@
 int strlength(){
     int anzahl = 0;
     int binary;
-    for (int i = 0; binary =! "\0" ; i++){
+    for (int i = 0; binary[i] =! "\0" ; i++){
         anzahl++;
-    } 
-    if (binary =! "1" || binary =! "0" ){
+        if (binary =! "1" || binary =! "0" ){
         printf("Usage: bin <binary number>");
+        }
     }
-    
-    
-    return -1;
+       return -1;
 }
 
 int power(int base, int exp){
