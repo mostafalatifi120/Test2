@@ -2,8 +2,8 @@
 
 int strlength(){
     int anzahl = 0;
-
-    for (int i = 0; anzahl != "\0" ; i++){
+    int binary;
+    for (int i = 0; binary =! "\0" ; i++){
         anzahl++;
     }    
     return anzahl;
